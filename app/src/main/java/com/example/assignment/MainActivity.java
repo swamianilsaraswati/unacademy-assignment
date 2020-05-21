@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         circularProgressIndicator.setMaxProgress(100);
         circularProgressIndicator.setCurrentProgress(0);
         circularProgressIndicator.setShouldDrawDot(true);
+        circularProgressIndicator.setProgressBackgroundColor(Color.GRAY);
         circularProgressIndicator.setProgressColor(getResources().getColor(R.color.colorAccent));
         circularProgressIndicator.setDotColor(getResources().getColor(R.color.orangeColor));
         circularProgressIndicator.setDotWidthDp(20);
